@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "start": {
+            "required": false,
+            "type": "integer",
+            "format": "int32",
+            "default": 0
+        }
+    }
+}

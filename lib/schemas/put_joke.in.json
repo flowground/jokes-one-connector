@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "title": {
+            "required": true,
+            "type": "string",
+            "format": "string"
+        },
+        "text": {
+            "required": true,
+            "type": "string",
+            "format": "string"
+        },
+        "author": {
+            "required": false,
+            "type": "string",
+            "format": "string"
+        },
+        "tags": {
+            "required": false,
+            "type": "string",
+            "format": "string"
+        }
+    }
+}

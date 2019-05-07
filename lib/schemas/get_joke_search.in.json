@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "properties": {
+        "category": {
+            "required": false,
+            "type": "string",
+            "format": "string"
+        },
+        "query": {
+            "required": false,
+            "type": "string",
+            "format": "string"
+        },
+        "minlength": {
+            "required": false,
+            "type": "integer",
+            "format": "int32",
+            "default": 100
+        },
+        "maxlength": {
+            "required": false,
+            "type": "integer",
+            "format": "int32",
+            "default": 300
+        },
+        "author": {
+            "required": false,
+            "type": "string",
+            "format": "string"
+        },
+        "private": {
+            "required": false,
+            "type": "boolean",
+            "format": "boolean",
+            "default": false
+        }
+    }
+}
